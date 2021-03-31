@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+
+.input-form {
+  border-radius: 7px;
+  background-color: gray;
+  margin-top: 1rem;
+}
+
+textarea {
+  white-space: pre;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+}
+
+#btnRun {
+  width: 100%;
+}
+
+.input-form textarea {
+  width: 100%;
+  height: 500px;
+  font-family: monospace;
+}
+
+.stdout-row {
+  display: none;
+  margin: 5px;
+}
+
+.stderr-row {
+  display: none;
+  margin: 5px;
+}
+
+.stdout {
+  border-radius: 5px;
+  background-color: greenyellow;
+  white-space: pre-line;
+}
+
+.stderr {
+  border-radius: 5px;
+  background-color: crimson;
+  white-space: pre-line;
+  color: white;
+}
