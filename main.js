@@ -12,7 +12,7 @@ function execute() {
   var code = $("#codeInput").val();
   $(".stdout-row").css("display", "none");
   $(".stderr-row").css("display", "none");
-  jQuery.post('http://localhost:6001/run', {script: code}, function(data) {
+  jQuery.post('http://pillager86.xyz:6001/run', {script: code}, function(data) {
     console.log(data);
     if(data.out) {
       $(".stdout-row").css("display", "flex");
