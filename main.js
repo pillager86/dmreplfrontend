@@ -27,3 +27,7 @@ function execute() {
     $("#pStderr").text("Server error: " + status + " " + error);
   });
 }
+
+function clearInput() {
+  $("#codeInput").val("");
+}
